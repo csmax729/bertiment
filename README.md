@@ -1,7 +1,6 @@
 # Real-Time Product Review Sentiment Analysis App
 
 ![App Screenshot](app_screenshot.png) 
-*You can take a screenshot of your running Streamlit app and add it to your project folder with this name.*
 
 ## Description
 This project is a web application that analyzes the sentiment of user-provided text in real-time. It uses a pre-trained DistilBERT model from the Hugging Face library to classify text as either POSITIVE or NEGATIVE. The entire application is built in Python and deployed using Streamlit.
@@ -33,4 +32,20 @@ To run this project on your own machine, follow these steps:
    ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   
+
+3. **Install the required packages:**
+   ```bash
+   pip install -r requirements.txt
+
+
+4. **Run the Streamlit app:**
+   ```bash
+   streamlit run app.py
+
+
+
+
+
+
 
